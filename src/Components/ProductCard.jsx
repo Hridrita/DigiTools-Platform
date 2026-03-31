@@ -1,4 +1,6 @@
 import React from "react";
+import Features from "./Features";
+
 
 const ProductCard = ({ product }) => {
   console.log(product);
@@ -16,10 +18,21 @@ const ProductCard = ({ product }) => {
     </div>
 
     <p className="text-[#627382FF]">{product.description}</p>
-    <span className="text-xl">${product.price}</span>
+    <div className="flex items-baseline">
+        <h1 className="text-2xl font-bold">${product.price}</h1> 
+        <h3 className="text-gray-500 text-sm">/{product.period}</h3>
+
+    </div>
+
+
+    <div>
+        {
+            product.features.map((feature,index) => (<Features key={index} feature={feature}></Features>))
+        }
+    </div>
     
     <div className="mt-6">
-      <button className="btn btn-primary btn-block">Subscribe</button>
+      <button className="btn w-full bg-linear-to-r from-blue-600 to-purple-600 text-white font-bold rounded-3xl">Buy Now</button>
     </div>
   </div>
 </div>
