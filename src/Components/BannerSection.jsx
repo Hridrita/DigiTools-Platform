@@ -42,11 +42,15 @@ const BannerSection = () => {
         <h1 className="font-bold text-6xl">50K+</h1>
         <p>Active Users</p>
       </div>
+
+      <div className="border border-gray-400"></div>
       
       <div>
         <h1 className="font-bold text-6xl">200K+</h1>
         <p>Premium Tools</p>
       </div>
+
+      <div className="border border-gray-400"></div>
 
       <div>
         <h1 className="font-bold text-6xl">4.9</h1>
