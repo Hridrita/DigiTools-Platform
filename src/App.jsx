@@ -3,6 +3,8 @@ import './App.css'
 import BannerSection from './Components/BannerSection'
 import DataSection from './Components/DataSection'
 import NavBar from './Components/NavBar'
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
 
 
 const productPromise = fetch("/data.json")
@@ -17,9 +19,11 @@ function App() {
     <NavBar></NavBar>
     <BannerSection></BannerSection>
 
-    <Suspense>
+    <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
       <DataSection productPromise={productPromise}></DataSection>
     </Suspense>
+
+    <ToastContainer position="top-right" autoClose={3000} />
     
     </>
   )
