@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Starter Resume Builder",
     "description": "Create professional resumes quickly with basic templates and export options.",
-    "price": 0,
+    "price": 10,
     "period": "one-time",
     "tag": "new",
     "tagType": "new",
@@ -12,7 +12,7 @@
       "Basic customization",
       "Export to PDF"
     ],
-    "icon": "file-text"
+    "icon": "https://i.ibb.co.com/V0xgH0vg/design-tool.png"
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
       "ATS optimization",
       "Export to PDF & DOCX"
     ],
-    "icon": "award"
+    "icon": "https://i.ibb.co.com/6R85qc5C/operation.png"
   },
   {
     "id": 3,
@@ -42,7 +42,7 @@
       "Custom domains",
       "SEO optimization"
     ],
-    "icon": "globe"
+    "icon": "https://i.ibb.co.com/QFzkCS9D/portfolio.png"
   },
   {
     "id": 4,
@@ -57,7 +57,7 @@
       "Interview reminders",
       "Status updates"
     ],
-    "icon": "briefcase"
+    "icon": "https://i.ibb.co.com/CpvCrBy6/social-media.png"
   },
   {
     "id": 5,
@@ -72,7 +72,7 @@
       "Keyword suggestions",
       "Growth insights"
     ],
-    "icon": "linkedin"
+    "icon": "https://i.ibb.co.com/V0xgH0vg/design-tool.png"
   },
   {
     "id": 6,
@@ -87,7 +87,7 @@
       "Multiple formats",
       "Editable templates"
     ],
-    "icon": "edit"
+    "icon": "https://i.ibb.co.com/V0xgH0vg/design-tool.png"
   },
   {
     "id": 7,
@@ -102,7 +102,7 @@
       "Common Q&A",
       "Expert tips"
     ],
-    "icon": "mic"
+    "icon": "https://i.ibb.co.com/6R85qc5C/operation.png"
   },
   {
     "id": 8,
@@ -117,7 +117,7 @@
       "Skill recommendations",
       "Progress analytics"
     ],
-    "icon": "trending-up"
+    "icon": "https://i.ibb.co.com/QFzkCS9D/portfolio.png"
   },
   {
   "id": 9,
@@ -132,7 +132,7 @@
     "Personalized learning paths",
     "Industry trend insights"
   ],
-  "icon": "cpu"
+  "icon": "https://i.ibb.co.com/CpvCrBy6/social-media.png"
 }
 
 ]
