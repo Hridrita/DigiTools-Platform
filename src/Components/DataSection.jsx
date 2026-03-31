@@ -21,7 +21,7 @@ const DataSection = ({productPromise}) => {
             </div>
 
 
-            <div className='container mx-auto grid grid-cols-3 gap-3'>
+            <div className='container mx-auto grid grid-cols-3 gap-6'>
                 {
                    products.map(product => (<ProductCard key={product.id} product={product}></ProductCard>)) 
                 }
