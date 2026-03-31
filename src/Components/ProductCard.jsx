@@ -4,12 +4,14 @@ import { toast } from 'react-toastify';
 
 
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product,selectedCarts, setSelectedCarts }) => {
     const [isSelected, setIsSelected] = useState(false);
 
     const handleProductSelect = () =>{
         toast.success("Cart Selected");
         setIsSelected(true);
+
+        setSelectedCarts([...selectedCarts, product])
     }
 
 
@@ -42,7 +44,7 @@ const ProductCard = ({ product }) => {
 
     <div className="flex-grow">
         {
-            product.features.map((feature,index) => (<Features key={index} feature={feature}></Features>))
+            product.features.map((feature,index) => (<Features key={index} feature={feature} ></Features>))
         }
     </div>
     

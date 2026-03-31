@@ -9,7 +9,7 @@ const DataSection = ({ productPromise }) => {
   console.log(products);
 
   const [selectedType, setSelectedType] = useState("Products");
-  const [selectedCarts, setSelectedcarts] = useState([]);
+  const [selectedCarts, setSelectedCarts] = useState([]);
 
   return (
     <div>
@@ -56,10 +56,10 @@ const DataSection = ({ productPromise }) => {
       >
         {selectedType === "Products" ? (
           products.map((product) => (
-            <ProductCard key={product.id} product={product} />
+            <ProductCard key={product.id} product={product} selectedCarts={selectedCarts} setSelectedCarts={setSelectedCarts} />
           ))
         ) : (
-          <SelectedCarts selectedCarts={selectedCarts} />
+          <SelectedCarts selectedCarts={selectedCarts} setSelectedCarts={setSelectedCarts} />
         )}
       </div>
     </div>
