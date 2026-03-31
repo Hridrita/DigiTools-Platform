@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Builder",
+    "description": "Create professional resumes quickly with basic templates and export options.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "10+ templates",
+      "Basic customization",
+      "Export to PDF"
+    ],
+    "icon": "file-text"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced resume builder with ATS optimization and premium templates.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF & DOCX"
+    ],
+    "icon": "award"
+  },
+  {
+    "id": 3,
+    "name": "Portfolio Website Kit",
+    "description": "Build your personal portfolio website with ready-to-use components.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Responsive design",
+      "Custom domains",
+      "SEO optimization"
+    ],
+    "icon": "globe"
+  },
+  {
+    "id": 4,
+    "name": "Job Tracker",
+    "description": "Track job applications and manage interview schedules efficiently.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Application tracking",
+      "Interview reminders",
+      "Status updates"
+    ],
+    "icon": "briefcase"
+  },
+  {
+    "id": 5,
+    "name": "LinkedIn Booster",
+    "description": "Optimize your LinkedIn profile to increase visibility and opportunities.",
+    "price": 14.99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Profile analysis",
+      "Keyword suggestions",
+      "Growth insights"
+    ],
+    "icon": "linkedin"
+  },
+  {
+    "id": 6,
+    "name": "Cover Letter Generator",
+    "description": "Generate personalized cover letters in seconds using AI.",
+    "price": 7.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "AI-generated content",
+      "Multiple formats",
+      "Editable templates"
+    ],
+    "icon": "edit"
+  },
+  {
+    "id": 7,
+    "name": "Interview Prep Kit",
+    "description": "Practice common interview questions and improve your confidence.",
+    "price": 12.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Mock interviews",
+      "Common Q&A",
+      "Expert tips"
+    ],
+    "icon": "mic"
+  },
+  {
+    "id": 8,
+    "name": "Career Growth Plan",
+    "description": "Personalized roadmap to help you achieve your career goals.",
+    "price": 24.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Goal tracking",
+      "Skill recommendations",
+      "Progress analytics"
+    ],
+    "icon": "trending-up"
+  },
+  {
+  "id": 9,
+  "name": "AI Skill Analyzer",
+  "description": "Analyze your skills and get personalized recommendations to improve and stay competitive.",
+  "price": 11.99,
+  "period": "monthly",
+  "tag": "new",
+  "tagType": "new",
+  "features": [
+    "Skill gap analysis",
+    "Personalized learning paths",
+    "Industry trend insights"
+  ],
+  "icon": "cpu"
+}
+
+]
