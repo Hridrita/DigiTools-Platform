@@ -7,6 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
 import StepsSection from './Components/StepsSection'
 import PricingCard from './Components/PricingCard'
+import Footer1 from './Components/Footer1'
 
 
 const productPromise = fetch("/data.json")
@@ -30,6 +31,8 @@ function App() {
     <StepsSection></StepsSection>
 
     <PricingCard></PricingCard>
+
+    <Footer1></Footer1>
     
     </>
   )
