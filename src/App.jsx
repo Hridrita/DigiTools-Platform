@@ -6,6 +6,7 @@ import NavBar from './Components/NavBar'
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
 import StepsSection from './Components/StepsSection'
+import PricingCard from './Components/PricingCard'
 
 
 const productPromise = fetch("/data.json")
@@ -27,6 +28,8 @@ function App() {
     <ToastContainer position="top-right" autoClose={3000} />
 
     <StepsSection></StepsSection>
+
+    <PricingCard></PricingCard>
     
     </>
   )
