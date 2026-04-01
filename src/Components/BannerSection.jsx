@@ -5,7 +5,7 @@ import BannerImg from '../assets/banner.png';
 const BannerSection = () => {
   return (
     <div>
-      <div className="container mx-auto grid grid-cols-2 mt-20">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 mt-20">
       <div className="space-y-4 mt-10">
         <h3 className="flex items-center gap-2 px-4 py-1 rounded-full font-semibold text-purple-600 bg-[#eef2ff] w-fit border border-purple-100">
           <span className="w-2 h-2 rounded-full bg-purple-600 outline outline-offset-2 outline-purple-300"></span>
@@ -37,27 +37,35 @@ const BannerSection = () => {
 
     </div>
 
-    <div className="flex gap-40 justify-center text-center bg-linear-to-l from-[rgb(79,57,246)] to-[rgb(149,20,250)] text-white py-15 px-10 w-full mt-20 ">
+    <div className="flex flex-col md:flex-row gap-10 md:gap-40 justify-center items-center text-center bg-linear-to-l from-[rgb(79,57,246)] to-[rgb(149,20,250)] text-white py-15 px-10 w-full mt-20">
+      
+      
       <div>
-        <h1 className="font-bold text-6xl">50K+</h1>
+        <h1 className="font-bold text-5xl md:text-6xl">50K+</h1>
         <p>Active Users</p>
       </div>
 
-      <div className="border border-gray-400"></div>
+      
+      <div className="hidden md:block border border-gray-400 h-16"></div>
+      
+      <div className="md:hidden border-b border-gray-400 w-20 opacity-50"></div>
+      
       
       <div>
-        <h1 className="font-bold text-6xl">200K+</h1>
+        <h1 className="font-bold text-5xl md:text-6xl">200K+</h1>
         <p>Premium Tools</p>
       </div>
 
-      <div className="border border-gray-400"></div>
+      <div className="hidden md:block border border-gray-400 h-16"></div>
+      <div className="md:hidden border-b border-gray-400 w-20 opacity-50"></div>
 
+      
       <div>
-        <h1 className="font-bold text-6xl">4.9</h1>
+        <h1 className="font-bold text-5xl md:text-6xl">4.9</h1>
         <p>Rating</p>
       </div>
 
-    </div>
+</div>
     </div>
     
 
