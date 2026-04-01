@@ -1,16 +1,25 @@
+
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const SelectedCarts = ({ selectedCarts, setSelectedCarts }) => {
     
-    // Total Price calculation logic
+    
     const totalPrice = selectedCarts.reduce((total, item) => total + item.price, 0);
 
     
     const handleRemove = (id) => {
         
         const remainingCarts = selectedCarts.filter(item => item.id !== id);
+        toast.error("Selected cart has deleted");
         setSelectedCarts(remainingCarts);
+        
     };
+
+    const handleProceedButton = () =>{
+        toast.success("Checkout Successful! Your order is placed.");
+        setSelectedCarts([]);
+    }
 
     return (
         <div className=" p-8 bg-white border border-gray-100 rounded-4xl shadow-sm">
@@ -53,10 +62,10 @@ const SelectedCarts = ({ selectedCarts, setSelectedCarts }) => {
                             <div className="mt-10 pt-6 border-t border-gray-50">
                                 <div className="flex justify-between items-center mb-6">
                                     <span className="text-gray-500 font-medium text-lg">Total:</span>
-                                    <span className="text-4xl font-black text-gray-900">${totalPrice}</span>
+                                    <span className="text-2xl font-black text-gray-900">${totalPrice}</span>
                                 </div>
 
-                                <button className="w-full bg-[#8B2CFF] hover:bg-[#7a25e0] text-white font-bold py-4 rounded-full transition-all text-lg shadow-lg shadow-purple-100">
+                                <button onClick={handleProceedButton} className="w-full bg-[#8B2CFF] hover:bg-[#7a25e0] text-white font-bold py-4 rounded-full transition-all text-lg shadow-lg shadow-purple-100">
                                     Proceed To Checkout
                                 </button>
                             </div>
