@@ -5,8 +5,8 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer2 = () => {
   return (
-    <div className="w-400 h-auto bg-[#101727FF] p-30">
-      <div className="container mx-auto  grid grid-cols-5 gap-3">
+    <div className="w-full h-auto bg-[#101727FF] py-16 px-6">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
         <div className="space-y-3">
           <h1 className="text-[#ffffffFF] font-bold text-2xl">DigiTools</h1>
           <p className="text-[#ffffffFF]">
@@ -57,10 +57,10 @@ const Footer2 = () => {
         </div>
       </div>
 
-      <div className="container mx-auto mt-30 border border-gray-600 w-320"></div>
+      <div className="container mx-auto mt-10 border-t border-gray-600 w-full"></div>
 
-      <div className="container mx-auto mt-8">
-        <div className="flex justify-between">
+      <div className="container mx-auto mt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
+    
         <p className="text-gray-400 text-sm">
           &copy; 2026 Digitools. All rights reserved.
         </p>
@@ -75,7 +75,7 @@ const Footer2 = () => {
       </div>
 
       
-    </div>
+    
   );
 };
 

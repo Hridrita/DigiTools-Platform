@@ -2,16 +2,17 @@ import React from "react";
 
 const PricingCard = () => {
   return (
-    <div className="w-400 h-auto shadow-2xl p-30">
-      <div className="flex-col justify-center items-center text-center space-y-4">
-        <h1 className="text-5xl font-bold">Simple, Transparent Pricing</h1>
-        <p className="text-[#627382FF]">
+    <div className="w-full h-auto shadow-sm">
+      <div className="py-16 px-6 md:px-12 lg:px-24">
+        <div className="flex-col justify-center items-center text-center space-y-4">
+        <h1 className="text-3xl md:text-5xl font-bold">Simple, Transparent Pricing</h1>
+        <p className="text-[#627382FF] max-w-2xl mx-auto">
           Choose the plan that fits your needs. Upgrade or downgrade anytime.
         </p>
       </div>
 
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 mt-12">
-        <div className="card w-96 bg-base-100 shadow-sm border border-gray-100 h-full flex flex-col justify-between">
+        <div className="card w-full max-w-md bg-base-100 shadow-sm border border-gray-100 h-full flex flex-col justify-between">
           <div className="card-body flex flex-col h-full">
             <div className="flex-grow">
               <h2 className="text-3xl font-bold mb-2">Starter</h2>
@@ -110,7 +111,7 @@ const PricingCard = () => {
           </div>
         </div>
 
-        <div className="card w-96 bg-linear-to-r from-[#4F39F6] to-[#9514FA] shadow-sm border border-gray-100 h-full flex flex-col justify-between">
+        <div className="card w-full max-w-md bg-linear-to-r from-[#4F39F6] to-[#9514FA] shadow-sm border border-gray-100 h-full flex flex-col justify-between">
           <div className=" relative card-body flex flex-col h-full">
             <div className="absolute -top-4 left-1/2 -translate-x-1/2">
               <span className="bg-[#FEF9C3] text-[#854D0E] text-xs font-bold px-4 py-1 rounded-full shadow-md border border-yellow-200 whitespace-nowrap">
@@ -249,7 +250,7 @@ const PricingCard = () => {
           </div>
         </div>
 
-        <div className="card w-96 bg-base-100 shadow-sm border border-gray-100 h-full flex flex-col justify-between">
+        <div className="card w-full max-w-md bg-base-100 shadow-sm border border-gray-100 h-full flex flex-col justify-between">
           <div className="card-body flex flex-col h-full">
             <div className="flex-grow">
               <h2 className="text-3xl font-bold mb-2">Enterprise </h2>
@@ -382,6 +383,7 @@ const PricingCard = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );
