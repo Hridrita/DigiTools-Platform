@@ -5,15 +5,16 @@ import RocketImg from "../assets/rocket.png";
 
 const StepsSection = () => {
   return (
-    <div>
-      <div className="flex flex-col justify-center items-center text-center mt-30 mb-10">
+    <div className="w-full px-6">
+      <div className="flex flex-col justify-center items-center text-center mt-20 mb-12">
         <h1 className="text-3xl font-bold">Get started In 3 Steps</h1>
-        <p className="text-[#627382FF]">
+        <p className="text-[#627382FF] max-w-md">
           Start using premium digital tools in minutes, not hours.
         </p>
       </div>
 
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mb-30">
+      <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
+        
         <div className="relative card lg:card-side bg-base-100 shadow-sm flex flex-col justify-center items-center text-center p-22.5">
           <span className="flex items-center justify-center border border-purple-300 outline-none rounded-full bg-purple-600 w-8 h-8 absolute top-4 right-4 text-cente text-white">
             01

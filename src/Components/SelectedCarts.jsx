@@ -22,9 +22,11 @@ const SelectedCarts = ({ selectedCarts, setSelectedCarts }) => {
     }
 
     return (
-        <div className=" p-8 bg-white border border-gray-100 rounded-4xl shadow-sm">
-            
-            <h1 className='font-bold text-2xl mb-8 text-gray-800 font-sora'>Your Cart</h1>
+        <div className=" p-6 md:p-10 bg-white border border-gray-100 rounded-[2rem] shadow-sm max-w-4xl mx-auto my-10">
+            <div className="flex justify-between items-center mb-10">
+        <h1 className='font-bold text-3xl text-gray-800'>Your Cart</h1>
+
+    </div>
 
             <div className='space-y-4'>
                 {
