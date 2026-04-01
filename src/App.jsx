@@ -5,6 +5,7 @@ import DataSection from './Components/DataSection'
 import NavBar from './Components/NavBar'
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
+import StepsSection from './Components/StepsSection'
 
 
 const productPromise = fetch("/data.json")
@@ -24,6 +25,8 @@ function App() {
     </Suspense>
 
     <ToastContainer position="top-right" autoClose={3000} />
+
+    <StepsSection></StepsSection>
     
     </>
   )
