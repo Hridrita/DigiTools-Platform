@@ -1,16 +1,17 @@
-# React + Vite
+**Project Name:** DiGitools-Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Description:** A modern, professional-grade SaaS landing page and management system designed with a focus on seamless user experience and high-conversion UI layouts.
 
-Currently, two official plugins are available:
+**Technology Stack**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Frontend:** React (Vite) with Tailwind CSS and DaisyUI for responsive.
 
-## React Compiler
+**Tools:** Integrated with Lucide React icons.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Key Features**
 
-## Expanding the ESLint configuration
+**Dynamic Stall & Plan Selection:** Features an interactive grid-based system where users can select specific service plans or festival stalls, inspired by modern e-commerce layouts.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Integrated Cart Management:** A seamless workflow where selected items are added to a centralized cart; users can review choices, remove specific items, or "Proceed to Checkout" to clear the selection and finalize the transaction.
+
+**Responsive Pricing Architecture:** A three-tier pricing model (Starter, Pro, and Enterprise) that utilizes mobile-first design principles to ensure a professional look across all device sizes.
