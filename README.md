@@ -1,17 +1,40 @@
-**Project Name:** DiGitools-Platform
+# DigiTools - Digital Tools Marketplace
 
-**Description:** A modern, professional-grade SaaS landing page and management system designed with a focus on seamless user experience and high-conversion UI layouts.
+DigiTools is a modern, SaaS-style web application designed as a marketplace for premium digital tools, templates, and assets. The platform provides a seamless experience for users to explore, categorize, and select various digital resources with a sleek and responsive UI.
 
-**Technology Stack**
+## 🚀 Live Demo
+https://digitools-platform-phnew.netlify.app/
 
-**Frontend:** React (Vite) with Tailwind CSS and DaisyUI for responsive.
+## ✨ Features
 
-**Tools:** Integrated with Lucide React icons.
+- **Responsive Design:** Fully optimized for all screen sizes (Mobile, Tablet, and Desktop).
+- **Tool Categories:** Browse digital tools across multiple categories like Web Development, Graphics Design, and Marketing.
+- **Add to Cart:** Real-time player/tool selection logic with budget or coin-based constraints.
+- **Pricing Plans:** Structured pricing tiers (Starter, Pro, and Enterprise) for diverse user needs.
+- **Dynamic UI:** Smooth transitions and user-friendly navigation built with Tailwind CSS and DaisyUI.
+- **State Management:** Efficient data handling for selected items and cart functionality.
 
-**Key Features**
+## 🛠️ Tech Stack
 
-**Dynamic Stall & Plan Selection:** Features an interactive grid-based system where users can select specific service plans or festival stalls, inspired by modern e-commerce layouts.
+- **Frontend:** React.js
+- **Styling:** Tailwind CSS, DaisyUI
+- **Icons:**  React Icons
+- **Deployment:** Netlify 
 
-**Integrated Cart Management:** A seamless workflow where selected items are added to a centralized cart; users can review choices, remove specific items, or "Proceed to Checkout" to clear the selection and finalize the transaction.
+## 📦 Installation & Setup
 
-**Responsive Pricing Architecture:** A three-tier pricing model (Starter, Pro, and Enterprise) that utilizes mobile-first design principles to ensure a professional look across all device sizes.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Hridrita/DigiTools-Platform.git
+
+2. **Navigate to the project directory:**
+   ```Bash
+   cd DigiTools-Platform
+
+3. **Install dependencies:**
+   ```Bash
+   npm install
+
+4. **Start the development server:**
+   ```Bash
+   npm run dev
